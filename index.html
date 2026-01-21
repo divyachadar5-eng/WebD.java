@@ -1,0 +1,53 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-5>
+    <title>Document</title>
+    <style>
+        .parent{
+            border: 3px solid;
+            height: 700px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            /* grid-template-columns: 200px 300px 200px; */
+            grid-template-rows: 200px 200px 200px;
+            /* grid-auto-flow: column; */
+        }
+        .child{
+            background-color: burlywood;
+            border: 1px solid brown;
+        }
+        #one{
+            background-color: rgb(193, 210, 222);
+            /* grid-row-start: 2;
+            grid-column-start: 3; */
+
+        }
+        #two{
+            background-color: aqua;
+        }
+        #three{
+            background-color: salmon;
+        }
+        #ten{
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+            <!-- <h2>index</h2> -->
+            <div class="parent">
+            <div class="child" id="one">1</div>
+            <div class="child" id="two">2</div>
+            <div class="child" id="three">3</div>
+            <div class="child" id="four">4</div>
+            <div class="child" id="five">5</div>
+            <div class="child" id="six">6</div>
+            <div class="child" id="seven">7</div>
+            <div class="child" id="eigth">8</div>
+            <div class="child" id="nine">9</div>
+            <div class="child" id="ten">10</div>
+            </div>
+        </body>
+</html>
